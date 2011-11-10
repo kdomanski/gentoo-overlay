@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE repositories SYSTEM "/dtd/repositories.dtd">
+<repositories xmlns="" version="1.0">
+  <repo quality="experimental" status="unofficial">
+    <name>kdomanski</name>
+    <description>Kamil Domanski's overlay</description>
+    <homepage>https://gitorious.org/kdomanski/overlay</homepage>
+    <owner>
+      <email>kdomanski@kdemail.net</email>
+      <name>Kamil Domanski</name>
+    </owner>
+    <source type="git">git://gitorious.org/kdomanski/overlay.git</source>
+    <source type="git">http://git.gitorious.org/kdomanski/overlay.git</source>
+    <feed>https://gitorious.org/kdomanski/overlay.atom</feed>
+  </repo>
+</repositories>
+
