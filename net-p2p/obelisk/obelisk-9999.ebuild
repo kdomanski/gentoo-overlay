@@ -18,7 +18,8 @@ IUSE=""
 
 RDEPEND="
 >=net-libs/zeromq-4.0.0
-net-libs/czmq
+>=net-libs/czmq-1.1.0
+dev-libs/libconfig[cxx]
 "
 
 DEPEND="${RDEPEND}"
