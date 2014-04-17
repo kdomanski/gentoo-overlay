@@ -14,7 +14,7 @@ SRC_URI=""
 LICENSE="AGPL3"
 SLOT="0"
 KEYWORDS=""
-IUSE="obelisk"
+IUSE="+obelisk"
 
 RDEPEND="
 	>=net-p2p/libbitcoin-2.0
