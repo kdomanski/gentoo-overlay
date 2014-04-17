@@ -5,7 +5,7 @@
 EAPI=5
 inherit git-2 autotools
 
-EGIT_REPO_URI="https://github.com/spesmilo/obelisk.git"
+EGIT_REPO_URI="https://github.com/libbitcoin/obelisk.git"
 
 DESCRIPTION="Obelisk scalable Bitcoin backend"
 HOMEPAGE="http://libbitcoin.dyne.org/"
