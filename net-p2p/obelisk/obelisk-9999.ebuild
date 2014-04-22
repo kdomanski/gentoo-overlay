@@ -17,14 +17,16 @@ KEYWORDS=""
 IUSE=""
 
 RDEPEND="
->=net-p2p/libbitcoin-2.1
->=net-libs/zeromq-4.0.0
->=net-libs/czmq-1.1.0
-dev-libs/libconfig[cxx]
-net-libs/czmqpp
+	>=net-p2p/libbitcoin-2.1
+	>=net-libs/zeromq-4.0.0
+	>=net-libs/czmq-1.1.0
+	dev-libs/libconfig[cxx]
+	net-libs/czmqpp
 "
 
-DEPEND="${RDEPEND}"
+DEPEND="${RDEPEND}
+	>=sys-devel/gcc-4.7
+"
 
 src_prepare() {
 	eautoreconf
