@@ -17,10 +17,13 @@ KEYWORDS=""
 IUSE=""
 
 RDEPEND="
->=net-libs/zeromq-4.0.0
->=net-libs/czmq-2.1.0"
+	>=net-libs/zeromq-4.0.0
+	>=net-libs/czmq-2.1.0
+"
 
-DEPEND="${RDEPEND}"
+DEPEND="${RDEPEND}
+	>=sys-devel/gcc-4.7
+"
 
 src_prepare() {
 	eautoreconf
