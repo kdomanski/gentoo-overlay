@@ -21,6 +21,7 @@ RDEPEND="
 >=net-libs/zeromq-4.0.0
 >=net-libs/czmq-1.1.0
 dev-libs/libconfig[cxx]
+net-libs/czmqpp
 "
 
 DEPEND="${RDEPEND}"
