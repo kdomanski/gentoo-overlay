@@ -3,15 +3,15 @@
 <repositories xmlns="" version="1.0">
   <repo quality="experimental" status="unofficial">
     <name>kdomanski</name>
-    <description>Kamil Domanski's overlay</description>
-    <homepage>https://gitorious.org/kdomanski/overlay</homepage>
+    <description>Kamil Domański's overlay</description>
+    <homepage>https://github.com/kdomanski/gentoo-overlay</homepage>
     <owner>
-      <email>kdomanski@kdemail.net</email>
-      <name>Kamil Domanski</name>
+      <email>github@domanski.co</email>
+      <name>Kamil Domański</name>
     </owner>
-    <source type="git">git://gitorious.org/kdomanski/overlay.git</source>
-    <source type="git">http://git.gitorious.org/kdomanski/overlay.git</source>
-    <feed>https://gitorious.org/kdomanski/overlay.atom</feed>
+    <source type="git">https://github.com/kdomanski/gentoo-overlay.git</source>
+    <source type="git">git@github.com:kdomanski/gentoo-overlay.git</source>
+    <feed>https://github.com/kdomanski/gentoo-overlay/commits/master.atom</feed>
   </repo>
 </repositories>
 
